@@ -233,20 +233,6 @@ def player_numbers(string)
   arr
 end
 
-
-def team_names
-
-abt = []
-i =0
-  while i < game_hash.keys.length
-    abt << game_hash[game_hash.keys[i]][:name]
-    i+=1
-    end
-abt
-
-end
-
-
 def team_names
 abt = []
 game_hash.each do |i,v|
