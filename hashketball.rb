@@ -234,14 +234,14 @@ def player_numbers(string)
 end
 
 
-def team_names 
+def team_names
 
 abt = []
 i =0
-  while i < game_hash.keys.length 
+  while i < game_hash.keys.length
     abt << game_hash[game_hash.keys[i]][:name]
     i+=1
-    end 
-abt 
+    end
+abt
 
 end 
