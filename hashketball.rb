@@ -244,4 +244,14 @@ i =0
     end
 abt
 
-end 
+end
+
+
+def team_names
+abt = []
+game_hash.each do |i,v|
+abt << game_hash[i][:name]
+end
+abt
+
+end
